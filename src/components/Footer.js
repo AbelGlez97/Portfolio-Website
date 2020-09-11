@@ -7,15 +7,9 @@ const Footer = () =>{
     return(
         <footer className = "mt-3 bg-light text-black-50"  >
             <Container fluid = {true} >
-                <Row className = "border-top justify-content-between p-3"  >
-                    <Col className = "p-0" md = {3} sm = {12}>
-                        Abel Gonzalez
-                    </Col>
-                    <Col className = "p-0 d-flex justify-content-center " md = {3}>
-                        Email: agonz943@fiu.edu
-                    </Col>
-                    <Col className = "p-0 d-flex justify-content-end " md = {3} >
-                        Phone: 786-380-8549
+                <Row className = "border-top justify-content-center p-3"  >
+                    <Col className = " d-flex justify-content-center p-1" md = {3} sm = {12}>
+                    This site was made by Abel Gonzalez-2020
                     </Col>
                 </Row>
             </Container>
